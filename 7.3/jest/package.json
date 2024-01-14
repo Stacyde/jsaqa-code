@@ -4,16 +4,31 @@
   "description": "jest test",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "coverage": "jest --collectCoverage"
   },
   "keywords": [
     "jest",
     "test",
     "jsaqa"
   ],
+
+  "collectCoverageFrom": [
+    "**/*.{js,jsx}",
+    "!**/node_modules/**",
+    "!**/coverages/**"
+  ],
   "author": "omelnikova",
   "license": "ISC",
   "devDependencies": {
     "jest": "^27.3.1"
-  }
+  },
+
+  "coverageThreshold": {
+    "global": {
+      "branches": 100,
+      "functions": 100,
+      "lines": 100
+    }
+}
 }
