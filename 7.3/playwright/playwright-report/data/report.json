@@ -10,13 +10,13 @@
           "projectName": "chromium",
           "location": {
             "file": "App.spec.js",
-            "line": 5,
+            "line": 7,
             "column": 1
           },
-          "duration": 15671,
+          "duration": 14384,
           "outcome": "unexpected",
           "path": [
-            "App.spec.js:5"
+            "App.spec.js:7"
           ],
           "ok": false
         },
@@ -26,13 +26,13 @@
           "projectName": "chromium",
           "location": {
             "file": "App.spec.js",
-            "line": 26,
+            "line": 28,
             "column": 1
           },
-          "duration": 31708,
+          "duration": 32451,
           "outcome": "unexpected",
           "path": [
-            "App.spec.js:26"
+            "App.spec.js:28"
           ],
           "ok": false
         }
@@ -44,7 +44,7 @@
         "flaky": 0,
         "skipped": 0,
         "ok": false,
-        "duration": 47379
+        "duration": 46835
       }
     }
   ],
@@ -58,6 +58,6 @@
     "flaky": 0,
     "skipped": 0,
     "ok": false,
-    "duration": 47379
+    "duration": 46835
   }
 }

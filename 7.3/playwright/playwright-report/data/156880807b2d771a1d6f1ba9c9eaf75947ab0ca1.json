@@ -8,72 +8,72 @@
       "projectName": "chromium",
       "location": {
         "file": "App.spec.js",
-        "line": 5,
+        "line": 7,
         "column": 1
       },
-      "duration": 15671,
+      "duration": 14384,
       "outcome": "unexpected",
       "path": [
-        "App.spec.js:5"
+        "App.spec.js:7"
       ],
       "results": [
         {
-          "duration": 15671,
-          "startTime": "2024-01-14T14:09:34.329Z",
+          "duration": 14384,
+          "startTime": "2024-01-14T14:50:27.568Z",
           "retry": 0,
           "steps": [
             {
               "title": "Before Hooks",
-              "startTime": "2024-01-14T14:09:34.329Z",
-              "duration": 1455,
+              "startTime": "2024-01-14T14:50:27.569Z",
+              "duration": 1013,
               "steps": [
                 {
                   "title": "browserContext.newPage",
-                  "startTime": "2024-01-14T14:09:35.205Z",
-                  "duration": 579,
+                  "startTime": "2024-01-14T14:50:28.066Z",
+                  "duration": 516,
                   "steps": []
                 }
               ]
             },
             {
               "title": "page.goto(https://netology.ru/?modal=sign_in)",
-              "startTime": "2024-01-14T14:09:35.789Z",
-              "duration": 5987,
-              "snippet": "\u001b[0m \u001b[90m  5 |\u001b[39m test(\u001b[32m\"Valid test\"\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m  6 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://netology.ru/?modal=sign_in\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  7 |\u001b[39m   \u001b[0m",
+              "startTime": "2024-01-14T14:50:28.588Z",
+              "duration": 6394,
+              "snippet": "\u001b[0m \u001b[90m  7 |\u001b[39m test(\u001b[32m\"Valid test\"\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m  8 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://netology.ru/?modal=sign_in\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  9 |\u001b[39m   \u001b[0m",
               "steps": [],
               "location": {
                 "file": "App.spec.js",
-                "line": 6,
+                "line": 8,
                 "column": 14
               }
             },
             {
               "title": "page.click([placeholder=\"Email\"])",
-              "startTime": "2024-01-14T14:09:41.781Z",
-              "duration": 7144,
-              "snippet": "\u001b[0m \u001b[90m  8 |\u001b[39m     \u001b[90m// Click [placeholder=\"Email\"]\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  9 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'[placeholder=\"Email\"]'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m               ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 10 |\u001b[39m     \u001b[90m// Fill [placeholder=\"Email\"]\u001b[39m\u001b[0m",
+              "startTime": "2024-01-14T14:50:34.985Z",
+              "duration": 6322,
+              "snippet": "\u001b[0m \u001b[90m 10 |\u001b[39m     \u001b[90m// Click [placeholder=\"Email\"]\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 11 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'[placeholder=\"Email\"]'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m               ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 12 |\u001b[39m     \u001b[90m// Fill [placeholder=\"Email\"]\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "App.spec.js",
-                "line": 9,
+                "line": 11,
                 "column": 16
               }
             },
             {
               "title": "After Hooks",
-              "startTime": "2024-01-14T14:09:48.927Z",
-              "duration": 1072,
+              "startTime": "2024-01-14T14:50:41.308Z",
+              "duration": 644,
               "steps": [
                 {
                   "title": "browserContext.close",
-                  "startTime": "2024-01-14T14:09:49.655Z",
-                  "duration": 340,
+                  "startTime": "2024-01-14T14:50:41.693Z",
+                  "duration": 251,
                   "steps": []
                 }
               ]
             }
           ],
-          "error": "ReferenceError: mail is not defined\n\n\u001b[0m \u001b[90m  9 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'[placeholder=\"Email\"]'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 10 |\u001b[39m     \u001b[90m// Fill [placeholder=\"Email\"]\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 11 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'[placeholder=\"Email\"]'\u001b[39m\u001b[33m,\u001b[39m mail)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 12 |\u001b[39m     \u001b[90m// Click [placeholder=\"Пароль\"]\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 13 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'[placeholder=\"Пароль\"]'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 14 |\u001b[39m     \u001b[90m// Fill [placeholder=\"Пароль\"]\u001b[39m\u001b[0m\n\n\u001b[2m    at C:\\Users\\degti\\VSCode\\jsaqa-code\\7.3\\playwright\\tests\\App.spec.js:11:46\u001b[22m\n\u001b[2m    at WorkerRunner._runTestWithBeforeHooks (C:\\Users\\degti\\VSCode\\jsaqa-code\\7.3\\playwright\\node_modules\\@playwright\\test\\lib\\workerRunner.js:478:7)\u001b[22m",
+          "error": "ReferenceError: mail is not defined\n\n\u001b[0m \u001b[90m 11 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'[placeholder=\"Email\"]'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 12 |\u001b[39m     \u001b[90m// Fill [placeholder=\"Email\"]\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 13 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'[placeholder=\"Email\"]'\u001b[39m\u001b[33m,\u001b[39m mail)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 14 |\u001b[39m     \u001b[90m// Click [placeholder=\"Пароль\"]\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 15 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'[placeholder=\"Пароль\"]'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 16 |\u001b[39m     \u001b[90m// Fill [placeholder=\"Пароль\"]\u001b[39m\u001b[0m\n\n\u001b[2m    at C:\\Users\\degti\\VSCode\\jsaqa-code\\7.3\\playwright\\tests\\App.spec.js:13:46\u001b[22m\n\u001b[2m    at WorkerRunner._runTestWithBeforeHooks (C:\\Users\\degti\\VSCode\\jsaqa-code\\7.3\\playwright\\node_modules\\@playwright\\test\\lib\\workerRunner.js:478:7)\u001b[22m",
           "status": "failed",
           "attachments": [
             {
@@ -92,126 +92,157 @@
       "projectName": "chromium",
       "location": {
         "file": "App.spec.js",
-        "line": 26,
+        "line": 28,
         "column": 1
       },
-      "duration": 31708,
+      "duration": 32451,
       "outcome": "unexpected",
       "path": [
-        "App.spec.js:26"
+        "App.spec.js:28"
       ],
       "results": [
         {
-          "duration": 31708,
-          "startTime": "2024-01-14T14:09:51.350Z",
+          "duration": 32451,
+          "startTime": "2024-01-14T14:50:42.793Z",
           "retry": 0,
           "steps": [
             {
               "title": "Before Hooks",
-              "startTime": "2024-01-14T14:09:51.351Z",
-              "duration": 1402,
+              "startTime": "2024-01-14T14:50:42.793Z",
+              "duration": 809,
               "steps": [
                 {
                   "title": "browserContext.newPage",
-                  "startTime": "2024-01-14T14:09:52.269Z",
-                  "duration": 484,
+                  "startTime": "2024-01-14T14:50:43.278Z",
+                  "duration": 324,
                   "steps": []
                 }
               ]
             },
             {
               "title": "page.goto(https://netology.ru/?modal=sign_in)",
-              "startTime": "2024-01-14T14:09:52.762Z",
-              "duration": 6341,
-              "snippet": "\u001b[0m \u001b[90m 26 |\u001b[39m test(\u001b[32m\"Failed test\"\u001b[39m\u001b[33m,\u001b[39m \u001b[36masync\u001b[39m ({ page }) \u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m 27 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://netology.ru/?modal=sign_in\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 28 |\u001b[39m   \u001b[0m",
+              "startTime": "2024-01-14T14:50:43.609Z",
+              "duration": 5847,
+              "snippet": "\u001b[0m \u001b[90m 29 |\u001b[39m   test\u001b[33m.\u001b[39msetTimeout(\u001b[35m120000\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 30 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m\"https://netology.ru/?modal=sign_in\"\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 31 |\u001b[39m   \u001b[0m",
               "steps": [],
               "location": {
                 "file": "App.spec.js",
-                "line": 27,
+                "line": 30,
                 "column": 14
               }
             },
             {
               "title": "page.click([placeholder=\"Email\"])",
-              "startTime": "2024-01-14T14:09:59.105Z",
-              "duration": 6807,
-              "snippet": "\u001b[0m \u001b[90m 28 |\u001b[39m   \u001b[0m\n\u001b[0m \u001b[90m 29 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'[placeholder=\"Email\"]'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 30 |\u001b[39m   \u001b[90m// Fill [placeholder=\"Email\"]\u001b[39m\u001b[0m",
+              "startTime": "2024-01-14T14:50:49.457Z",
+              "duration": 5433,
+              "snippet": "\u001b[0m \u001b[90m 31 |\u001b[39m   \u001b[0m\n\u001b[0m \u001b[90m 32 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'[placeholder=\"Email\"]'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 33 |\u001b[39m   \u001b[90m// Fill [placeholder=\"Email\"]\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "App.spec.js",
-                "line": 29,
+                "line": 32,
                 "column": 14
               }
             },
             {
               "title": "page.fill([placeholder=\"Email\"])",
-              "startTime": "2024-01-14T14:10:05.914Z",
-              "duration": 5060,
-              "snippet": "\u001b[0m \u001b[90m 30 |\u001b[39m   \u001b[90m// Fill [placeholder=\"Email\"]\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 31 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'[placeholder=\"Email\"]'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'ivanov@mail.ru'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 32 |\u001b[39m   \u001b[90m// Click [placeholder=\"Пароль\"]\u001b[39m\u001b[0m",
+              "startTime": "2024-01-14T14:50:54.891Z",
+              "duration": 5035,
+              "snippet": "\u001b[0m \u001b[90m 33 |\u001b[39m   \u001b[90m// Fill [placeholder=\"Email\"]\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 34 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'[placeholder=\"Email\"]'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'testtest@mail.ru'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 35 |\u001b[39m   \u001b[90m// Click [placeholder=\"Пароль\"]\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "App.spec.js",
-                "line": 31,
+                "line": 34,
                 "column": 14
               }
             },
             {
               "title": "page.click([placeholder=\"Пароль\"])",
-              "startTime": "2024-01-14T14:10:10.975Z",
-              "duration": 5146,
-              "snippet": "\u001b[0m \u001b[90m 32 |\u001b[39m   \u001b[90m// Click [placeholder=\"Пароль\"]\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 33 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'[placeholder=\"Пароль\"]'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 34 |\u001b[39m   \u001b[90m// Fill [placeholder=\"Пароль\"]\u001b[39m\u001b[0m",
+              "startTime": "2024-01-14T14:50:59.927Z",
+              "duration": 5133,
+              "snippet": "\u001b[0m \u001b[90m 35 |\u001b[39m   \u001b[90m// Click [placeholder=\"Пароль\"]\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 36 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'[placeholder=\"Пароль\"]'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 37 |\u001b[39m   \u001b[90m// Fill [placeholder=\"Пароль\"]\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "App.spec.js",
-                "line": 33,
+                "line": 36,
                 "column": 14
               }
             },
             {
               "title": "page.fill([placeholder=\"Пароль\"])",
-              "startTime": "2024-01-14T14:10:16.122Z",
-              "duration": 5084,
-              "snippet": "\u001b[0m \u001b[90m 34 |\u001b[39m   \u001b[90m// Fill [placeholder=\"Пароль\"]\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 35 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'[placeholder=\"Пароль\"]'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'123456789'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 36 |\u001b[39m   \u001b[90m// Click [data-testid=\"login-submit-btn\"]\u001b[39m\u001b[0m",
+              "startTime": "2024-01-14T14:51:05.061Z",
+              "duration": 5031,
+              "snippet": "\u001b[0m \u001b[90m 37 |\u001b[39m   \u001b[90m// Fill [placeholder=\"Пароль\"]\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 38 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mfill(\u001b[32m'[placeholder=\"Пароль\"]'\u001b[39m\u001b[33m,\u001b[39m \u001b[32m'testetste'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 39 |\u001b[39m   \u001b[90m// Click [data-testid=\"login-submit-btn\"]\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "App.spec.js",
-                "line": 35,
+                "line": 38,
                 "column": 14
               }
             },
             {
               "title": "page.click([data-testid=\"login-submit-btn\"])",
-              "startTime": "2024-01-14T14:10:21.208Z",
-              "duration": 0,
-              "snippet": "\u001b[0m \u001b[90m 36 |\u001b[39m   \u001b[90m// Click [data-testid=\"login-submit-btn\"]\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 37 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'[data-testid=\"login-submit-btn\"]'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 38 |\u001b[39m\u001b[0m",
+              "startTime": "2024-01-14T14:51:10.092Z",
+              "duration": 5136,
+              "snippet": "\u001b[0m \u001b[90m 39 |\u001b[39m   \u001b[90m// Click [data-testid=\"login-submit-btn\"]\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 40 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'[data-testid=\"login-submit-btn\"]'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m             ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 41 |\u001b[39m\u001b[0m",
               "steps": [],
               "location": {
                 "file": "App.spec.js",
-                "line": 37,
+                "line": 40,
                 "column": 14
               }
             },
             {
+              "title": "page.fill(data-testid=login-error-hint)",
+              "startTime": "2024-01-14T14:51:15.229Z",
+              "duration": 6,
+              "snippet": "\u001b[0m \u001b[90m 41 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 42 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mfill(\u001b[32m\"data-testid=login-error-hint\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[32m'Вы ввели неправильно логин или пароль'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                    ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 43 |\u001b[39m   \u001b[36mawait\u001b[39m browser\u001b[33m.\u001b[39mclose()\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "App.spec.js",
+                "line": 42,
+                "column": 21
+              },
+              "error": "page.fill: value: expected string, got undefined"
+            },
+            {
+              "title": "expect.toHaveText",
+              "startTime": "2024-01-14T14:51:15.234Z",
+              "duration": 3,
+              "snippet": "\u001b[0m \u001b[90m 41 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 42 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mfill(\u001b[32m\"data-testid=login-error-hint\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[32m'Вы ввели неправильно логин или пароль'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m                                                          ^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 43 |\u001b[39m   \u001b[36mawait\u001b[39m browser\u001b[33m.\u001b[39mclose()\u001b[33m;\u001b[39m\u001b[0m",
+              "steps": [],
+              "location": {
+                "file": "App.spec.js",
+                "line": 42,
+                "column": 59
+              },
+              "error": "toHaveText can be only used with Locator object"
+            },
+            {
               "title": "After Hooks",
-              "startTime": "2024-01-14T14:10:21.360Z",
-              "duration": 1698,
+              "startTime": "2024-01-14T14:51:15.237Z",
+              "duration": 589,
               "steps": [
                 {
                   "title": "browserContext.close",
-                  "startTime": "2024-01-14T14:10:22.330Z",
-                  "duration": 725,
+                  "startTime": "2024-01-14T14:51:15.550Z",
+                  "duration": 275,
                   "steps": []
                 }
               ]
             }
           ],
-          "error": "\u001b[31mTimeout of 30000ms exceeded.\u001b[39m\nPending operations:\n  - page.click at tests\\App.spec.js:37:14",
-          "status": "timedOut",
+          "error": "Error: toHaveText can be only used with Locator object\n\n\u001b[0m \u001b[90m 40 |\u001b[39m   \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mclick(\u001b[32m'[data-testid=\"login-submit-btn\"]'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 41 |\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 42 |\u001b[39m   \u001b[36mawait\u001b[39m expect(page\u001b[33m.\u001b[39mfill(\u001b[32m\"data-testid=login-error-hint\"\u001b[39m))\u001b[33m.\u001b[39mtoHaveText(\u001b[32m'Вы ввели неправильно логин или пароль'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                                                           \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 43 |\u001b[39m   \u001b[36mawait\u001b[39m browser\u001b[33m.\u001b[39mclose()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 44 |\u001b[39m })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 45 |\u001b[39m\u001b[0m\n\n\u001b[2m    at expectType (C:\\Users\\degti\\VSCode\\jsaqa-code\\7.3\\playwright\\node_modules\\@playwright\\test\\lib\\util.js:163:81)\u001b[22m\n\u001b[2m    at Object.toMatchText (C:\\Users\\degti\\VSCode\\jsaqa-code\\7.3\\playwright\\node_modules\\@playwright\\test\\lib\\matchers\\toMatchText.js:40:24)\u001b[22m\n\u001b[2m    at Object.toHaveText (C:\\Users\\degti\\VSCode\\jsaqa-code\\7.3\\playwright\\node_modules\\@playwright\\test\\lib\\matchers\\matchers.js:245:37)\u001b[22m\n\u001b[2m    at Object.__PWTRAP__[expect.toHaveText] (C:\\Users\\degti\\VSCode\\jsaqa-code\\7.3\\playwright\\node_modules\\@playwright\\test\\lib\\expect.js:142:30)\u001b[22m\n\u001b[2m    at __EXTERNAL_MATCHER_TRAP__ (C:\\Users\\degti\\VSCode\\jsaqa-code\\7.3\\playwright\\node_modules\\expect\\build\\index.js:386:30)\u001b[22m\n\u001b[2m    at Object.throwingMatcher [as toHaveText] (C:\\Users\\degti\\VSCode\\jsaqa-code\\7.3\\playwright\\node_modules\\expect\\build\\index.js:387:15)\u001b[22m\n\u001b[2m    at C:\\Users\\degti\\VSCode\\jsaqa-code\\7.3\\playwright\\tests\\App.spec.js:42:59\u001b[22m\n\u001b[2m    at WorkerRunner._runTestWithBeforeHooks (C:\\Users\\degti\\VSCode\\jsaqa-code\\7.3\\playwright\\node_modules\\@playwright\\test\\lib\\workerRunner.js:478:7)\u001b[22m",
+          "status": "failed",
           "attachments": [
             {
               "name": "screenshot",
               "contentType": "image/png",
-              "path": "data/fec400ecfd23fcf34f8ce91f3abd79a66977e99d.png"
+              "path": "C:\\Users\\degti\\VSCode\\jsaqa-code\\7.3\\playwright\\test-results\\App-Failed-test-chromium\\test-failed-1.png"
+            },
+            {
+              "name": "screenshot",
+              "contentType": "image/png",
+              "path": "data/deb0a11f5c4036b4b61a57f7dd9655399f10dfd5.png"
             }
           ]
         }

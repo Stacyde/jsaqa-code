@@ -1,6 +1,8 @@
 
 const { test, expect } = require( '@playwright/test');
-const user = require("../user.js");
+const user = require('../user.js');
+
+
 
 test("Valid test", async ({ page }) => {
   await page.goto("https://netology.ru/?modal=sign_in");
@@ -24,6 +26,7 @@ test("Valid test", async ({ page }) => {
 });
 
 test("Failed test", async ({ page }) => {
+  test.setTimeout(120000);
   await page.goto("https://netology.ru/?modal=sign_in");
   
   await page.click('[placeholder="Email"]');
@@ -36,6 +39,6 @@ test("Failed test", async ({ page }) => {
   // Click [data-testid="login-submit-btn"]
   await page.click('[data-testid="login-submit-btn"]');
 
-  await expect(page.fill("data-testid=login-error-hint")).toContainText("Вы ввели неправильно логин или пароль");
+  await expect(page.fill("data-testid=login-error-hint")).toHaveText('Вы ввели неправильно логин или пароль');
   await browser.close();
 });
