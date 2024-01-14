@@ -1,0 +1,63 @@
+{
+  "files": [
+    {
+      "fileId": "156880807b2d771a1d6f1ba9c9eaf75947ab0ca1",
+      "fileName": "App.spec.js",
+      "tests": [
+        {
+          "testId": "156880807b2d771a1d6f1ba9c9eaf75947ab0ca1-ba15ee72de4015c58d26bd42fda83dcff9e6eb60",
+          "title": "Valid test",
+          "projectName": "chromium",
+          "location": {
+            "file": "App.spec.js",
+            "line": 5,
+            "column": 1
+          },
+          "duration": 15671,
+          "outcome": "unexpected",
+          "path": [
+            "App.spec.js:5"
+          ],
+          "ok": false
+        },
+        {
+          "testId": "156880807b2d771a1d6f1ba9c9eaf75947ab0ca1-332f0100a530be6aaeaa93504bbb655ebdc7016a",
+          "title": "Failed test",
+          "projectName": "chromium",
+          "location": {
+            "file": "App.spec.js",
+            "line": 26,
+            "column": 1
+          },
+          "duration": 31708,
+          "outcome": "unexpected",
+          "path": [
+            "App.spec.js:26"
+          ],
+          "ok": false
+        }
+      ],
+      "stats": {
+        "total": 2,
+        "expected": 0,
+        "unexpected": 2,
+        "flaky": 0,
+        "skipped": 0,
+        "ok": false,
+        "duration": 47379
+      }
+    }
+  ],
+  "projectNames": [
+    "chromium"
+  ],
+  "stats": {
+    "total": 2,
+    "expected": 0,
+    "unexpected": 2,
+    "flaky": 0,
+    "skipped": 0,
+    "ok": false,
+    "duration": 47379
+  }
+}
